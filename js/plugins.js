@@ -154,16 +154,16 @@ $(document).ready(function(){
 
 		// FIXED BG
 
-				// 	if ($('#bottom5').length >= 1) {
+					if ($('#home').length >= 1) {
 
-        //     var fixbtmbg = $('#bottom5').offset().top;
-        //         if (windowScroll > fixbtmbg && window_width > 1024){
+            var fixbtmbg = $('#home').offset().top;
+                if (windowScroll > fixbtmbg && window_width > 1024){
 
-        //         $('#bottom5').addClass('fixbtmbg');
-        //             } else {
-        //         $('#bottom5').removeClass('fixbtmbg');
-        //         }
-        // }
+                $('#home').addClass('fixbtmbg');
+                    } else {
+                $('#home').removeClass('fixbtmbg');
+                }
+        }
 
 				// 	// NAV FIXED AND THE LOGO WILL ALSO CHANGE
 				// 		var navHeight = $(window).height() - 700;
