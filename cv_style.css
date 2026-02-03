@@ -1,0 +1,44 @@
+/* Reset and Base Styles */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f0f0; color: #333; line-height: 1.4; padding: 40px 0; }
+
+.resume-container { width: 900px; margin: auto; background: white; padding: 50px; box-shadow: 0 0 20px rgba(0,0,0,0.1); position: relative; }
+
+/* Header Styling */
+header { text-align: center; margin-bottom: 30px; }
+.name { font-size: 32px; letter-spacing: 1px; color: #2c3e50; }
+.job-title-main { font-size: 18px; margin-bottom: 20px; color: #555; }
+.contact-bar { display: flex; justify-content: center; gap: 20px; font-size: 12px; }
+
+/* Layout Grid */
+.content-wrapper { display: flex; gap: 40px; }
+.sidebar { flex: 1; }
+.main-body { flex: 2; }
+
+/* Section Headers */
+.section-title {
+    background-color: #2c3e50;
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* List & Content Styles */
+ul { list-style-type: disc; padding-left: 18px; margin-bottom: 15px; font-size: 13px; }
+li { margin-bottom: 5px; }
+p { font-size: 13px; margin-bottom: 10px; }
+
+/* Experience & Education Specifics */
+.job-block, .edu-block { margin-bottom: 25px; }
+h3 { font-size: 16px; color: #2c3e50; }
+.company { font-weight: bold; color: #444; margin-bottom: 10px; }
+
+/* Reference Section */
+.ref-grid { display: flex; gap: 20px; }
+.ref-item { font-size: 12px; }
+
+/* Achievement Formatting */
+.achievement-item { margin-bottom: 15px; font-size: 12px; }

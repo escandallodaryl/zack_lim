@@ -3,24 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sample</title>
+  <title>Zack Portfolio</title>
 
   <link rel="icon" type="image/png" href="images/fav.png">
   <link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/media.css">
-  <script src="plugins.js"></script>
-  <style>
+  <script src="load.js"></script>
+  <script src="js/plugins.js"></script>
 
-  </style>
 </head>
 <body>
 
-  <div class="loading-overlay" id="loading">
-    <div class="load">
-      <hr/><hr/><hr/><hr/>
-    </div>
-  </div>
-  <a class="back2top" href="#home">⬆</a>
+  <div class="loading-overlay" id="loading"> <div class="load"> <hr/><hr/><hr/><hr/> </div> </div>
+
+  <!-- <a class="back2top" href="#home">⬆</a> -->
   
   <!-- Navigation -->
   <nav class="da_nav" id="nav">
@@ -36,19 +32,18 @@
   <section id="home" class="da_home">
     <div class="wrapper">
       <figure class="home_profile"><img src="images/zack-1.png" alt="zack lim"></figure>
-      <div class="container">
-        <div class="avatar">
+      <div class="home_profile_slogan">
+        <!-- <div class="avatar">
           <a href="">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/skytsunami.png" alt="" />
           </a>
-        </div>
-        <div class="content">
-          <h1>Haluuu....</h1>
-          <p>Follow me on:</p>
+        </div> -->
+        <div class="home_profile_slogan_inner">
+          <h1>Zack <span>Lim</span></h1>
             
         </div>
       </div>
-      <a class="da_cv_here" href="" target="_blank"><img src="images/icons/cv.png"> Download Here...</a>
+      <a class="da_cv_here" href="cv.html" target="_blank"><img src="images/icons/cv.png"> Download Here...</a>
     </div>
   </section>
 
@@ -56,8 +51,8 @@
    <div class="wrapper">
      
       <div class="da_about_info">
-        <h2>About Me</h2>
-        <p>I’m Daryl Escandallo, a front-end web developer recently promoted to Team Leader. With a strong focus on creating clean, functional, and user-friendly websites, I’ve grown not only in technical skills but also in leadership. This promotion has given me the opportunity to guide my team, support their growth, and ensure that our projects run smoothly and on time. </p> 
+        <h2><small>Let Me Introduce Myself</small>HELLO THERE</h2>
+        <p>I’m <b>Daryl Escandallo</b>, a front-end web developer recently promoted to <b>Team Leader</b>. With a strong focus on creating clean, functional, and user-friendly websites, I’ve grown not only in technical skills but also in leadership. This promotion has given me the opportunity to guide my team, support their growth, and ensure that our projects run smoothly and on time. </p> 
         <p>As a Team Leader, I handle both development and admin responsibilities—adjusting ETCs, assisting newbies, answering queries, supporting QA implementation, coordinating with developers, and addressing members’ concerns. I take pride in balancing hands-on coding with team management, making sure that collaboration, efficiency, and quality remain at the center of everything we deliver.</p>
       </div>
    </div>
@@ -72,11 +67,12 @@
         </video>
       </div>
             
-      <!-- Tab Buttons -->
+     <div class="projects_con">
+       <!-- Tab Buttons -->
       <div class="tab">
         <button class="tablinks" onclick="openTab(event, 'Websites')" id="defaultOpen">Websites</button>
-        <button class="tablinks" onclick="openTab(event, 'Reels')">Reels</button>
-        <button class="tablinks" onclick="openTab(event, 'Others')">Others</button>
+        <button class="tablinks" onclick="openTab(event, 'Reels')">....</button>
+        <button class="tablinks" onclick="openTab(event, 'Others')">.....</button>
       </div>
 
       <!-- Tab Contents -->
@@ -110,8 +106,9 @@
           <img src="images/project7.png" alt="Gallery Image">
           <a href="#">Visit Site</a>
         </div>
+        </div>
       </div>
-      </div>
+     </div>
 
       <div id="Reels" class="tabcontent">
         <h3>Reels</h3>
@@ -157,79 +154,30 @@
         </div>
       </div> -->
 
-      <div class="da_media">
+      <!-- <div class="da_media">
         <figure><img src="images/icons/linkedin.png" alt=""></figure>
         <figure><img src="images/icons/linkedin.png" alt=""></figure>
         <figure><img src="images/icons/linkedin.png" alt=""></figure>
-      </div>
+      </div> -->
 
-      <div id="app_cover">
-  <a href="#" target="_blank" class="block">
+    <div id="app_cover">
+  <a href="https://www.facebook.com/F3lixDee/" target="_blank" class="block">
     <div class="card" id="c_fb">
       <div class="c_brand_logo"><i class="fab fa-facebook-f"></i></div>
-      <div class="c_share_count">2.4M</div>
-      <div class="c_share_link">share</div>
+      <div class="c_share_count">2.6K</div>
+      <div class="c_share_link">Visit</div>
     </div>
     <div class="c_c_card">
       <div class="card cc_card" id="c_o_fb">
         <div class="c_brand_logo"><i class="fab fa-facebook-f"></i></div>
-        <div class="c_share_count">2.4M</div>
-        <div class="c_share_link">share</div>
-      </div>
-    </div>
-  </a>
-  <a href="#" target="_blank" class="block">
-    <div class="card" id="c_gl">
-      <div class="c_brand_logo"><i class="fab fa-google-plus-g"></i></div>
-      <div class="c_share_count">204K</div>
-      <div class="c_share_link">share</div>
-    </div>
-    <div class="c_c_card">
-      <div class="card cc_card" id="c_o_gl">
-        <div class="c_brand_logo"><i class="fab fa-google-plus-g"></i></div>
-        <div class="c_share_count">204K</div>
-        <div class="c_share_link">share</div>
-      </div>
-    </div>
-  </a>
-  <a href="#" target="_blank" class="block">
-    <div class="card" id="c_tw">
-      <div class="c_brand_logo"><i class="fab fa-twitter"></i></div>
-      <div class="c_share_count">1.7M</div>
-      <div class="c_share_link">share</div>
-    </div>
-    <div class="c_c_card">
-      <div class="card cc_card" id="c_o_tw">
-        <div class="c_brand_logo"><i class="fab fa-twitter"></i></div>
-        <div class="c_share_count">1.7M</div>
-        <div class="c_share_link">share</div>
+        <div class="c_share_count">↓</div>
+        <div class="c_share_link">Follow</div>
       </div>
     </div>
   </a>
 </div>
     </div>
   </section>
-
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>
-  <div class="custom-cursor"></div>		
 
 </body>
 </html>
